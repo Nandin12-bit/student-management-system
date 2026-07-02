@@ -170,15 +170,15 @@ void enter()
 							
 main()
 {
-	int value;
+	int value()
 	while(true)
 	{
-	cout<<"Press 1 to enter data"<<endl;
-	cout<<"Press 2 to show data"<<endl;
-	cout<<"Press 3 to search data"<<endl;
-	cout<<"Press 4 to update data"<<endl;
-	cout<<"Press 5 to delete data"<<endl;
-	cout<<"Press 6 to exit "<<endl;
+	cout<<"1.Enter student data"<<endl;
+	cout<<"2.View student data"<<endl;
+	cout<<"3.Search student"<<endl;
+	cout<<"4.update student data"<<endl;
+	cout<<"5.Delete student data"<<endl;
+	cout<<"6.Exit "<<endl;
 	cin>>value;
 	switch(value)
 	{
